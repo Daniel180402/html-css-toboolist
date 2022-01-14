@@ -6,7 +6,6 @@
 
 header{
     height: 100px;
-    background-color: white;
 }
 
 main{
@@ -33,10 +32,13 @@ main{
     height: 85%;
     width: 70%;
     margin: 0 auto;
-    background-color: white;
     border: 1px solid rgb(223, 223, 223);
     border-radius: 10px;
 
+}
+
+header, .container{
+    background-color: white;
 }
 
 .add-task, .add-section{
@@ -61,7 +63,7 @@ main{
     color: grey;
 }
 
-.white-text-options{
+.white-text-options, .white-text{
     color: white;
 }
 
@@ -80,7 +82,7 @@ main{
 }
 
 .white-text{
-    color: white;
+    font-size: 0.8em;
 }
 
 .editorial-box, .q1-goals-box, .recruting-box, .mobile-box, .website-box, .sales-box{
