@@ -79,14 +79,41 @@ main{
     font-size: 1.5em;
 }
 
-.blue-box{
+.white-text{
+    color: white;
+}
+
+.editorial-box, .q1-goals-box, .recruting-box, .mobile-box, .website-box, .sales-box{
     display: inline-block;
     width: 80px;
     height: 30px;
     border-radius: 20px;
     text-align: center;
     padding: 5px 0;
+}
+
+.editorial-box{
     background-color: rgb(77, 144, 231);
+}
+
+.q1-goals-box{
+    background-color: rgb(139, 50, 223);
+}
+
+.recruting-box{
+    background-color: green;
+}
+
+.website-box{
+    background-color: plum;
+}
+
+.mobile-box{
+    background-color: orange;
+}
+
+.sales-box{
+    background-color: greenyellow;
 }
 
 #title{
