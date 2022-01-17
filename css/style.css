@@ -6,21 +6,20 @@
 
 header{
     height: 100px;
+    margin-bottom: 100px;
+}
+
+body{
+    background-color: rgb(223, 223, 223);
 }
 
 main{
-    background-color: rgb(223, 223, 223);
     height: 1000px;
 }
 
 .main-logo{
     height: 100px;
     vertical-align: middle;
-}
-
-.separator{
-    height: 100px;
-    background-color: rgb(223, 223, 223);
 }
 
 .container-options{
